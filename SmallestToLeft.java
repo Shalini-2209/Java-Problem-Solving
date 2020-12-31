@@ -1,6 +1,4 @@
 package stack;
-
-import java.util.Scanner;
 import java.util.Stack;
 
 public class SmallestToLeft {
@@ -31,8 +29,6 @@ public class SmallestToLeft {
 
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        sc.nextL
         long arr[] = {2, 20, 1, 90, 99};
         findSmallest(arr);
     }
